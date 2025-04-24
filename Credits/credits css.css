@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(7, 21, 43);
+  color: black;
+}
+
+.maryam {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  background: whitesmoke;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.profile {
+  grid-column: 1 / -1;
+  margin-bottom: 2rem; 
+  padding: 50px;
+}
+
+.profile_description {
+  background-color: rgb(240, 206, 201);
+  font-size: 15px;
+  box-sizing: content-box;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.profile_container {
+  display: flex;
+  gap: 10px;
+}    
+
+
+.name {
+  text-align: left;
+  padding: 20px;
+}
+
+h1 {
+  color: black;
+  font-weight: 200;
+  font-size: clamp(2rem, 8vw, 4rem);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 12.8px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(194, 10, 10);
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+/*skills*/
+.skills {
+  margin-top: 25px;
+}
+
+.skill_list {
+  margin-top: 10px;
+  line-height: 2;
+  font-size: 15px;
+}
+
+h3 {
+  color: tomato;
+  font-size: 30px;
+}
+
+.pic {
+  height: 15px;
+  width: 15px;
+}
+
+/*education*/
+.education {
+  margin-top: 25px;
+}
+
+.edu_item {
+  margin-top: 20px;
+}
+
+.item_pretitle {
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.item_title {
+  font-size: 25px;
+  color: grey;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.item_subtitle {
+  font-size: 15px;
+  color: rgb(192, 180, 159);
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.group_1 {
+  padding: 30px;
+}
+
+.exp_item {
+  margin-top: 15px;
+}
+
+.group_2 {
+  background-color: rgb(240, 206, 201);
+  float: right;
+  padding: 30px;
+}
+
+.contact {
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.contact p {
+  margin-top: 15px;
+}
