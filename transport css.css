@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+    background-color: rgba(227,218,201);
+}
+
+h1 {
+    background-image: url(train.jpg);
+    background-repeat: no-repeat;
+    opacity: 3.0;
+    padding: 30px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: xx-large;
+    text-shadow: 2px 2px 5px black;
+  }
+  
+  h1 em {
+    color: white;
+    font-size: xx-large;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+
+  /* Add a black background color to the top navigation */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: red;
+  }
+
+  h2 {
+    background-color: goldenrod;
+  }
+
+.A {
+    margin: 50px;
+    padding: 30px 30px;
+    width: auto;
+    height: auto;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(99, 56, 21) rgb(121, 91, 66) ;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(5, 5, 5);
+    display: inline-block;
+    background-image: url(back.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+img {
+    width: 40%;
+    height: 20%;
+    float: left;
+}
+
+video {
+    width: 40%;
+    height: 20%;
+    float: left;
+    margin-top: 100px;
+}
+
+.text {
+    margin-left: 45%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(124, 66, 25);
+    text-shadow: 2px 2px wheat;
+    text-align: center;
+}
+
+.T {
+    margin: 50px;
+    padding: 30px 30px;
+    width: auto;
+    height: auto;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(99, 56, 21) rgb(121, 91, 66) ;
+    background-color: rgba(227,218,201);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(5, 5, 5);
+    display: inline-block;
+}

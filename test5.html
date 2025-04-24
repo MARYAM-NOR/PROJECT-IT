@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h2{
+    text-align: center;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card img{
+    border-radius: 50%;
+    border-color: burlywood;
+    border-style: solid 2px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    margin:10px;
+    height: 200px;}
+
+.container {
+  padding: 10px 16px;
+}
+.container h2{
+    text-align: center;
+}
+.container p{
+    text-align: center;
+   line-height: 1.2;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+}
+.container span{
+    color: mediumslateblue;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.button a:link {
+    text-decoration: none;
+  }
+.button a:visited{
+    color: white;
+}
+.button a:hover{
+    color: white;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+    <h2>Our Team</h2>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="profile-modified.png" alt="Dania" width="600" height="400">
+          <div class="container">
+            <h2>Dania</h2>
+            <p class="title">Captain</p>
+            <p>Our <span>beautiful</span> leader</p>
+            <p><button class="button"><a href="">Contact</a></button></p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <img src="gambarsaya-modified.png" alt="Dini" width="600" height="400">
+          <div class="container">
+            <h2>Dini</h2>
+            <p class="title">Co-captain</p>
+            <p>Our <span>competent</span> assistant.</p>
+            <p><button class="button"><a href="">Contact</a></button></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="card">
+          <img src="maryam-modified.png" alt="Maryam" width="600" height="400">
+          <div class="container">
+            <h2>Maryam</h2>
+            <p class="title">Cadet</p>
+            <p>Our   <span>energizer</span></p>
+            <p><button class="button"><a href="">Contact<a></button></p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="My project-1-modified.png" alt="adibah" width="600" height="400">
+          <div class="container">
+            <h2>Adibah</h2>
+            <p class="title">Doctor</p>
+            <p>Our    <span>helpers</span></p>
+            <p><button class="button"><a href="">Contact</a></button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>
